@@ -3,9 +3,9 @@ from math import * # матаматические функции, в данны�
 
 # Ülesanne 1
 print("Tere maailm!")
-nimi=input("Palun kirjuta oma nimi ").capitalize() #lower() - все маленькие, upper() - все большие, capitalize() - первая будет всегда большая другие маленькие
+nimi=input("Palun kirjuta oma nimi ").capitalize()   #lower() - все маленькие, upper() - все большие, capitalize() - первая будет всегда большая другие маленькие
 print("Tere tulemast! Tervitan sind " + nimi + "!")
-print("Tere tulemast! Tervitan sind" , nimi + "!") #"," действует как " " а затем идет слова "+" обьядиняет тобишь Слова если до не было пробела будет написано слитно
+print("Tere tulemast! Tervitan sind" , nimi + "!")   #"," действует как " " а затем идет слова "+" обьядиняет тобишь Слова если до не было пробела будет написано слитно
 vanus=int(input("Kui vana sa oled? "))
 print("Tere Tulemast! Tervitan sind" , nimi , "Sa oled", vanus , "aastat vana.")
 print(f"\tTere Tulemast! Tervitan sind  {nimi} Sa oled {vanus} aastat vana.")
@@ -57,7 +57,7 @@ keskmine = (a+b+c+d+e)/5
 print(f"Aritmeetilise keskmine on {keskmine}")
 
 
-# Ülesanne 8
+# Ülesanne 8  
 print("     @..@")
 print("    (----)")
 print("  ( | __ | )")
