@@ -37,7 +37,7 @@ print(f"Läbimõõdu suurus on {round(d,2)}")
 print("Hakkame lugeda ristkülikukujulise maatüki diagonaal")
 N=float(input("Palun sisesta ristküliku pikkus N "))
 M=float(input("Palun sisesta ristküliku laius M "))
-d=sqrt(N**2 + M**2)
+d=sqrt(N**2 + M**2)   #** - используемым для возведения в степень
 print(f"Ristkülikukujulise maatüki diagonaal on {round(d,2)}")
 
 # Ülesanne 6
