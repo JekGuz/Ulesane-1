@@ -34,7 +34,7 @@ from tkinter import ROUND
 #Ülesanne 2i
 
 
-#Ülesanne 3
+# #Ülesanne 3
 # try:
 #     r = float(input("Sissesta R: "))
 #     Sk = pi*r**2
@@ -46,11 +46,26 @@ from tkinter import ROUND
 #     print("On vaja number!")
 
 
-#Ülesanne 3i
-r=round(random() * 100) #0.0 ... 1.0   int/round
-print(r)
-Sk = pi*r**2
-Lk = 2*pi*r 
-Pkv = (2*r)**2 
-Lkv = 2*r*4
-print(f"Ruumbe, pimdala on {round(Sk, 2)} \nRingi ümnbermõõt on {round(Lk, 2)} \nRuudu pindala {round(Lkv, 2)} \nRuudu ümbermõtt {round(Lkv, 2)}")
+# #Ülesanne 3i
+# r=round(random() * 100) #0.0 ... 1.0   int/round
+# print(r)
+# Sk = pi*r**2
+# Lk = 2*pi*r 
+# Pkv = (2*r)**2 
+# Lkv = 2*r*4
+# print(f"Ruumbe, pimdala on {round(Sk, 2)} \nRingi ümnbermõõt on {round(Lk, 2)} \nRuudu pindala {round(Lkv, 2)} \nRuudu ümbermõtt {round(Lkv, 2)}")
+
+# #Ülesanne 4
+# r_maa_km = 6378
+# euro_sm = 2.575
+# r_maa_sm = r_maa_km * 100000  #ma*
+# dlinna_okruznosti = 2 * pi * r_maa_sm
+# kogus = dlinna_okruznosti / euro_sm
+# print(f"Maa diametr {round(r_maa_sm, 2)}")
+# print(f"{round(kogus, 2)} - 2euroseid münte tuleb panna üksteise kõrvale  ")
+
+# #Ülesanne 5
+# print("kill-koll kill-koll killadi-koll "*4)
+
+#Ülesanne 6
+
