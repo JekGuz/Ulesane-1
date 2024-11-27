@@ -6,9 +6,13 @@ print("Tere maailm!")
 nimi=input("Palun kirjuta oma nimi ").capitalize()   #lower() - все маленькие, upper() - все большие, capitalize() - первая будет всегда большая другие маленькие
 print("Tere tulemast! Tervitan sind " + nimi + "!")
 print("Tere tulemast! Tervitan sind" , nimi + "!")   #"," действует как " " а затем идет слова "+" обьядиняет тобишь Слова если до не было пробела будет написано слитно
-vanus=int(input("Kui vana sa oled? "))
-print("Tere Tulemast! Tervitan sind" , nimi , "Sa oled", vanus , "aastat vana.")
-print(f"\tTere Tulemast! Tervitan sind  {nimi} Sa oled {vanus} aastat vana.")
+try:   #try если будет ошибка не будет выдавать до except
+    vanus=int(input("Kui vana sa oled? "))
+    print("Tere Tulemast! Tervitan sind" , nimi , "Sa oled", vanus , "aastat vana.")
+    print(f"\tTere Tulemast! Tervitan sind  {nimi} Sa oled {vanus} aastat vana.")
+    except:
+        print("On vaja numbrid sissestada!")
+
 
 # Ülesanne 2
 vanus = 18
